@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Sistema de agendamento de doação de sangue" />
+    <meta name="author" content="André Gustavo Barros" />
+    <title>Doe Sangue, Doe Vida</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/logo-doe-sangue.png"
+                    alt="" /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#banco">Nível</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#proximo">Bancos próximo</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="menu-btn" href="newuser.html">Cadastre-se</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">Bem vindo ao Doe Sangue, Doe Vida!</div>
+            <div class="masthead-heading text-uppercase">Nunca foi tão fácil doar.</div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#sobre">Cadastre-se</a>
+        </div>
+    </header>
+    <!-- Sobre-->
+    <section class="page-section" id="sobre">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Sobre</h2>
+                <h3 class="section-subheading text-muted">Somos o Doe Sangue, Doe Vida plataforma para facilitar
+                    doações.</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-clinic-medical fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Clínicas</h4>
+                    <p class="text-muted">Encontre uma clínica mais próxima a você.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Agenda Digital</h4>
+                    <p class="text-muted">Agende seu horário pela internet, basta ter um computador ou um celular e
+                        agendar sua doação.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Seja um Doador</h4>
+                    <p class="text-muted">Quem pode, onde e como doar? Tire suas dúvidas na nossa plataforma.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banco Grid-->
+    <section class="page-section bg-light" id="banco">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Banco de Sangue</h2>
+                <h3 class="section-subheading text-muted">Acompanhe o nível do nossos bancos de sangue.</h3>
+            </div>
+            <div class="row">
+                    <div class="col-md-12">
+                        <ul class="bar-graph">                            
+                            <li class="bar alert" style="height: 85%;" title="85">
+                              <div class="percent">85<span>%</span></div>
+                              <div class="description">A+</div>
+                            </li>
+                            <li class="bar alert" style="height: 90%;" title="90">
+                              <div class="percent">90<span>%</span></div>
+                              <div class="description">A-</div>
+                            </li>
+                            <li class="bar alert" style="height: 80%;" title="80">
+                              <div class="percent">80<span>%</span></div>
+                              <div class="description">B+</div>
+                            </li>
+                            <li class="bar alert" style="height: 75%;" title="75">
+                              <div class="percent">75<span>%</span></div>
+                              <div class="description">B-</div>
+                            </li>
+                            <li class="bar alert" style="height: 40%;" title="40">
+                              <div class="percent">40<span>%</span></div>
+                              <div class="description">O+</div>
+                            </li>
+                            <li class="bar alert" style="height: 95%;" title="95">
+                                <div class="percent">95<span>%</span></div>
+                                <div class="description">O-</div>
+                              </li>
+                              <li class="bar alert" style="height: 90%;" title="90">
+                                <div class="percent">90<span>%</span></div>
+                                <div class="description">AB+</div>
+                              </li>
+                              <li class="bar alert" style="height: 80%;" title="80">
+                                <div class="percent">80<span>%</span></div>
+                                <div class="description">AB-</div>
+                              </li>
+                          </ul>
+                 
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- proximo-->
+    <section class="page-section" id="proximo">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Banco mais próximo</h2>
+                <h3 class="section-subheading text-muted">Encontre a clínica mais próxima de onde você está.</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d18881.47466949964!2d-35.2141026392411!3d-5.807411340488404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdoar%20sangue!5e0!3m2!1spt-BR!2sbr!4v1619469194740!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            
+        </div>
+    </section>   
+
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Entre em contato</h2>
+                <h3 class="section-subheading text-muted">Mande sua dúvida que retornaremos o mais rápido possível.</h3>
+            </div>
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" placeholder="Nome *"
+                                required="required" data-validation-required-message="Por favor, digite seu nome." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="email" type="email" placeholder="Email *"
+                                required="required"
+                                data-validation-required-message="Por favor, digite seu email." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <input class="form-control" id="phone" type="tel" placeholder="Telefone *"
+                                required="required"
+                                data-validation-required-message="Por favor, digite seu telefone." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <textarea class="form-control" id="message" placeholder="Sua mensagem *" required="required"
+                                data-validation-required-message="Por favor, digite sua mensagem."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div id="success"></div>
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar
+                        Messagem</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">Copyright © Doe Sangue, Doe Vida - 2021</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" href="#!">Privacy Policy</a>
+                    <a href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
