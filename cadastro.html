@@ -34,40 +34,59 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="menu-btn" href="cadastro.html">Cadastre-se</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.html">Login</a></li>
+                    
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Contact-->
-    <section class="page-section" id="login">
+    <section class="page-section" id="cadastro">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Login</h2>
-                <h3 class="section-subheading text-muted">Digite sua senha.</h3>
+                <h2 class="section-heading text-uppercase">Formulário de Cadastro</h2>
+                <h3 class="section-subheading text-muted">Cadastre-se para ter acesso aos agendamentos da plataforma.</h3>
             </div>
-            <form id="loginForm" name="sentMessage" novalidate="novalidate" style="margin-bottom: 15%;">
+            <form id="cadastroForm" name="sentMessage" novalidate="novalidate">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" placeholder="Nome *" required="required"
+                                data-validation-required-message="Por favor, digite seu nome." />
+                            <p class="help-block text-danger"></p>
+                        </div>
                         <div class="form-group">
                             <input class="form-control" id="email" type="email" placeholder="Email *"
                                 required="required" data-validation-required-message="Por favor, digite seu email." />
                             <p class="help-block text-danger"></p>
                         </div>
-                        <div class="form-group mb-md-0">
-                            <input class="form-control" id="password" type="password" placeholder="Senha *"
+                        <div class="form-group">
+                            <input class="form-control" id="phone" type="tel" placeholder="Telefone *"
                                 required="required"
-                                data-validation-required-message="Por favor, digite sua senha." />
+                                data-validation-required-message="Por favor, digite seu telefone." />
                             <p class="help-block text-danger"></p>
                         </div>
-                    </div>    
-                    <div class="col-md-4"></div>                
+                        <div class="form-group">
+                            <input class="form-control" id="password" type="password" placeholder="Digite uma senha *"
+                                required="required" data-validation-required-message="Por favor, digite sua senha." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <input class="form-control" name="passwordagain" type="password" placeholder="Confirme sua senha *"
+                                required="required" data-validation-required-message="Por favor, confirme sua senha." 
+                                data-validation-matches-message="A senha precisa ser a mesma." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        
+                        
+                    </div>  
+                    <div class="col-md-4"></div>                  
                 </div>
-                <div id="success"></div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="loginButton" type="submit">Entrar</button>
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar
+                        Messagem</button>
                 </div>
             </form>
         </div>
@@ -95,7 +114,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- login form JS-->
+    <!-- cadastro form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
