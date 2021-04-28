@@ -436,7 +436,7 @@
                 "day": 28,
                 "hour": "10:30",
                 "available": false,
-                "donator": "Maria"
+                "donator": "Chuck"
             },
             {
                 "year": 2021,
@@ -444,7 +444,7 @@
                 "day": 15,
                 "hour": "15:30",
                 "available": false,
-                "donator": "Maria"
+                "donator": "Michel"
             },
             {
                 "year": 2021,
@@ -452,7 +452,7 @@
                 "day": 6,
                 "hour": "15:30",
                 "available": false,
-                "donator": "Maria"
+                "donator": "Thiago"
             }
         ]
     }
@@ -683,7 +683,7 @@
 
 })(jQuery);
 
-$("#finish-button").click(function () {
+$("#finish-button, #finish-button2").click(function () {
     alert("Todo o sistema foi testado. Obrigado. Porfavor, responda o questionário a seguir.")
     window.location.replace("https://forms.gle/yDF6WvkzUmD2xWLd6");
 });
