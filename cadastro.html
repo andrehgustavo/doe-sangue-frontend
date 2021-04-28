@@ -57,14 +57,13 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="Email *"
-                                required="required" data-validation-required-message="Por favor, digite seu email." />
+                            <input class="form-control" id="login" type="text" placeholder="Login *" required="required"
+                                data-validation-required-message="Por favor, digite um Login." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="phone" type="tel" placeholder="Telefone *"
-                                required="required"
-                                data-validation-required-message="Por favor, digite seu telefone." />
+                            <input class="form-control" id="email" type="email" placeholder="Email *"
+                                required="required" data-validation-required-message="Por favor, digite seu email." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
@@ -73,7 +72,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group mb-md-0">
-                            <input class="form-control" name="passwordagain" type="password" placeholder="Confirme sua senha *"
+                            <input class="form-control" id="passwordagain" name="passwordagain" type="password" placeholder="Confirme sua senha *"
                                 required="required" data-validation-required-message="Por favor, confirme sua senha." 
                                 data-validation-matches-message="A senha precisa ser a mesma." />
                             <p class="help-block text-danger"></p>
@@ -85,8 +84,7 @@
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar
-                        Messagem</button>
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>
